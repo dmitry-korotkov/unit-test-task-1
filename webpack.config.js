@@ -1,8 +1,17 @@
-const path = require('path'); // Node.js модуль для разрешения путей файлов
+/* eslint-disable linebreak-style */
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+// Node.js модуль для разрешения путей файлов
 module.exports = {
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'app.bundle.js',
-    },
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.js',
+  },
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: './src/index.html',
+      filename: './index.html',
+    }),
+  ],
 };
