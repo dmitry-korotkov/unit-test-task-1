@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/oa0wgv5n973h6mgm?svg=true)](https://ci.appveyor.com/project/dmitry-korotkov/unit-test-task-1)
