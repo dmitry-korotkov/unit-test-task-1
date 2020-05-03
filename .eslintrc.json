@@ -19,8 +19,7 @@
         "no-restricted-syntax": [
             "error",
             "ignorePackages",
-            "LabeledStatement",
-            "WithStatement"
+            "LabeledStatement"
         ]
     }
 }

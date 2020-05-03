@@ -1,6 +1,5 @@
-/* eslint-disable linebreak-style */
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 // Node.js модуль для разрешения путей файлов
 module.exports = {
   entry: './src/index.js',
@@ -9,9 +8,9 @@ module.exports = {
     filename: 'app.bundle.js',
   },
   plugins: [
-    new HtmlWebPackPlugin({
-      template: './src/index.html',
-      filename: './index.html',
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "./index.html"
     }),
   ],
 };
